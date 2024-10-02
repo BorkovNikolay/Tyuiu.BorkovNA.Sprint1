@@ -6,7 +6,7 @@ namespace Tyuiu.BorkovNA.Sprint1.Task6.V7.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void ValidDeleteLastLetter()
         {
             string a = "Привет мир";
             string b = "Приве ми";
