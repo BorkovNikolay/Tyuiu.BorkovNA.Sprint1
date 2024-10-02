@@ -7,7 +7,7 @@ namespace Tyuiu.BorkovNA.Sprint1.Task1.V29.Lib
         public double Calculate(double a, double b, double c)
         {
             return a * b * c / (a + b + c);
-            throw new NotImplementedException();
+        
         }
     }
 }
