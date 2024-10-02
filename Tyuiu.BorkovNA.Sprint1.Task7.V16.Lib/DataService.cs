@@ -6,7 +6,7 @@ namespace Tyuiu.BorkovNA.Sprint1.Task7.V16.Lib
     {
         public double Calculate(double x)
         {
-            return Math.Round(Math.Sin(Math.Sqrt(Math.Pow(x, 2)))+(Math.Cos(Math.Pow(x,2)) /Math.Pow(3*x,3))-Math.Sin(Math.Sqrt(Math.Pow(x, 2)-1)),3);
+            return Math.Round((Math.Sin(Math.Sqrt(x*x)))+(Math.Cos(x*x)/ (3 * Math.Pow(x,3)))-(Math.Sin(Math.Sqrt((x*x)-1))),3);
         }
     }
 }

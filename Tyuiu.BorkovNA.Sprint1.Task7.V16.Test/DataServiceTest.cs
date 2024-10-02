@@ -10,7 +10,7 @@ namespace Tyuiu.BorkovNA.Sprint1.Task7.V16.Test
         public void ValidCalculate()
         {
             DataService ds = new DataService();
-            Assert.AreEqual(0.861, ds.Calculate(1));
+            Assert.AreEqual(0.026, ds.Calculate(5));
         }
     }
 }
